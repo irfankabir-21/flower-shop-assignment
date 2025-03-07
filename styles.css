@@ -140,7 +140,7 @@ main {
 /*Service section started here*/
 
 .service-section {
-  margin: 0px auto;
+  margin: 0px 240px;
   background-color: rgba(39, 39, 39, 0.05);
   border-radius: 8px;
   display: flex;
@@ -148,7 +148,6 @@ main {
   align-items: center;
   gap: 100px;
   margin-bottom: 124px;
-  width: 1440px;
   height: 320px;
 }
 
@@ -161,12 +160,16 @@ main {
   margin-top: 24px;
 }
 
-.service-section div {
+.service-item {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-direction: column;
+}
+
+.service-img{
+  width: 100%;
 }
 
 /* Hot deal section started here*/
@@ -264,6 +267,11 @@ footer .p2 {
   margin-bottom: 0px;
 }
 
+
+
+
+
+
 /* Mobile Responsive starts here*/
 
 @media screen and (max-width: 576px) {
@@ -325,6 +333,7 @@ footer .p2 {
 
   .flower-section {
     margin: 0px;
+    margin: 25px;
   }
 
   .flower-section h2 {
@@ -390,50 +399,39 @@ footer .p2 {
   /*Service section started here*/
 
   .service-section {
-    margin: 0px auto;
+    margin: 0px;
+    padding: 0px;
     background-color: rgba(39, 39, 39, 0.05);
-    border-radius: 8px;
+    gap: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
-    margin-bottom: 124px;
-    width: 1440px;
-    height: 320px;
-  }
-
-  .title-04 {
-    color: rgba(39, 39, 39, 0.8);
-    font-size: 24px;
-    font-family: Lato;
-    font-weight: 600;
-    line-height: 35px;
-    margin-top: 24px;
-  }
-
-  .service-section div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     flex-direction: column;
+    text-align: center;
+    padding: 200px 20px;
+    gap: 50px;
+    margin: 25px;
   }
 
   /* Hot deal section started here*/
 
+  main {
+    margin: 0px;
+  }
+
   .hot-deal-section {
-    padding-left: 395px;
-    padding-right: 429px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 0px;
+    margin: 0px;
     background-color: rgba(229, 84, 115, 0.05);
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 128px;
-    gap: 186px;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 32px;
+    padding: 40px 20px;
   }
 
   /*Instagram section started here*/
