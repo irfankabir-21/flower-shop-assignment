@@ -47,7 +47,7 @@ header {
   height: 800px;
 }
 
-.header-msg p{
+.header-msg p {
   /* width: 634px; */
   padding-right: 83px;
 }
@@ -69,51 +69,51 @@ main {
 
 .title-03 {
   color: #272727;
-font-size: 24px;
-font-family: Lato;
-font-weight: 700;
-text-decoration: underline;
-line-height: 35px;
+  font-size: 24px;
+  font-family: Lato;
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 35px;
 }
 
-.flower-section{
+.flower-section {
   margin: 0px auto;
   margin-bottom: 128px;
 }
 
-.flower-section h2{
-  margin-bottom:24px; 
-  text-align:center;
+.flower-section h2 {
+  margin-bottom: 24px;
+  text-align: center;
 }
-.flower-section p{
+.flower-section p {
   width: 594px;
   text-align: center;
   margin: 0 auto;
-   margin-bottom: 48px; 
+  margin-bottom: 48px;
 }
 
-.flower-box{
+.flower-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.flower-box h3{
+.flower-box h3 {
   margin-top: 32px;
 }
 
-.flower-cart-container{
+.flower-cart-container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
 }
 
-.flower-cart{
+.flower-cart {
   width: 464px;
   height: 538px;
-  border-top-left-radius: 300px; 
+  border-top-left-radius: 300px;
   border-top-right-radius: 300px;
   display: flex;
   align-items: center;
@@ -121,25 +121,25 @@ line-height: 35px;
   text-align: center;
 }
 
-.flower-img-cart-1{
-  width: 310px;height: 428px;
+.flower-img-cart-1 {
+  /* width: 310px;height: 428px; */
 }
 
-.flower-img-cart-2{
-  width: 370px;height: 370px;
+.flower-img-cart-2 {
+  /* width: 370px;height: 370px; */
 }
 
-.flower-img-cart-3{
-  width: 314px;height: 471px;
+.flower-img-cart-3 {
+  /* width: 314px;height: 471px; */
 }
 
-.flower-cart h3{
+.flower-cart h3 {
   text-decoration: underline;
 }
 
 /*Service section started here*/
 
-.service-section{
+.service-section {
   margin: 0px auto;
   background-color: rgba(39, 39, 39, 0.05);
   border-radius: 8px;
@@ -152,16 +152,16 @@ line-height: 35px;
   height: 320px;
 }
 
-.title-04{
- color: rgba(39, 39, 39, 0.80);
-font-size: 24px;
-font-family: Lato;
-font-weight: 600;
-line-height: 35px;
-margin-top: 24px;
+.title-04 {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-family: Lato;
+  font-weight: 600;
+  line-height: 35px;
+  margin-top: 24px;
 }
 
-.service-section div{
+.service-section div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -171,12 +171,12 @@ margin-top: 24px;
 
 /* Hot deal section started here*/
 
-.hot-deal-section{
+.hot-deal-section {
   padding-left: 395px;
   padding-right: 429px;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: rgba(229, 84, 115, 0.05); 
+  background-color: rgba(229, 84, 115, 0.05);
   border-radius: 8px;
   display: flex;
   justify-content: center;
@@ -188,17 +188,18 @@ margin-top: 24px;
 
 /*Instagram section started here*/
 
-.instagram-section{
+.instagram-section {
   margin-bottom: 128px;
 }
 
-.instagram-section h2,.instagram-section p{
+.instagram-section h2,
+.instagram-section p {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 24px;
 }
 
-.insta-pics{
+.insta-pics {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -207,7 +208,7 @@ margin-top: 24px;
 
 /*Latest deal section started here*/
 
-.latest-deal-section{
+.latest-deal-section {
   margin: 0px auto;
   margin-bottom: 128px;
   margin-top: 128px;
@@ -217,60 +218,56 @@ margin-top: 24px;
   height: 449px;
 }
 
-.latest-deal-section h2,.latest-deal-section p{
+.latest-deal-section h2,
+.latest-deal-section p {
   text-align: center;
 }
 
-.input-btn-container{
+.input-btn-container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 16px;
 }
 
-.input-btn-container input{
-  padding:23px 513px 22px 23px;
+.input-btn-container input {
+  padding: 23px 513px 22px 23px;
   background: white;
   border-radius: 8px;
- border: none;
+  border: none;
 }
 
 /*Footer section started here*/
 
-footer{
+footer {
   text-align: center;
   background-color: #111010;
 }
 
-footer h2{
+footer h2 {
   margin-bottom: 24px;
-  color: white; 
+  color: white;
   padding-top: 128px;
 }
 
-footer .p1{
-  color: rgba(255, 255, 255, 0.90);
+footer .p1 {
+  color: rgba(255, 255, 255, 0.9);
   margin: 0px auto;
-   margin-bottom: 32px;
-   width: 625px;
+  margin-bottom: 32px;
+  width: 625px;
 }
 
-footer .p2{
+footer .p2 {
   font-size: 16px;
-   padding-bottom: 128px;
-   color: rgba(255, 255, 255, 0.40);
-   margin-bottom: 0px;
+  padding-bottom: 128px;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 0px;
 }
-
 
 /* Mobile Responsive starts here*/
 
-@media screen and (max-width:576px) {
-
-
-  
+@media screen and (max-width: 576px) {
   header {
-    background-color: rgba(229, 84, 115, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -280,148 +277,119 @@ footer .p2{
     text-align: center;
     overflow: auto;
   }
-  
+
   .title {
-    color: #272727;
     font-size: 60px;
-    font-family: Lato;
-    font-weight: 800;
     margin-bottom: 32px;
   }
 
   .title-desc {
-    color: rgba(39, 39, 39, 0.6);
     font-size: 18px;
-    font-family: Lato;
-    font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 32px;
-  }
-  
-  .btn-primary {
-    color: white;
-    font-size: 20px;
-    font-family: Lato;
-    font-weight: 700;
-    padding: 20px 43px;
-    background-color: #e55473;
-    border: none;
-    border-radius: 8px;
   }
 
-  .header-msg{
+  .header-msg {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 30px;
   }
 
-  .header-msg p{
+  .header-msg p {
     padding: 0px;
   }
 
-  .header-msg h1{
-
-  }
-  
   .header-img {
-   width: 100vw;
-   height: auto;
-   margin-top: 40px;
+    width: 100vw;
+    height: auto;
+    margin-top: 40px;
   }
 
-  .header-img img{
+  .header-img img {
     width: 100%;
     height: auto;
   }
-  
+
   /*Flower section started here*/
-  
+
   main {
-    margin: 0px auto;
-    margin-top: 178px;
+    margin: 0px 20px;
+    margin-top: 25px;
   }
-  
+
   .title-02 {
-    color: #272727;
-    font-size: 40px;
-    font-family: Lato;
-    font-weight: 800;
-    margin-bottom: 32px;
+    margin: 0px;
   }
-  
+
   .title-03 {
-    color: #272727;
-  font-size: 24px;
-  font-family: Lato;
-  font-weight: 700;
-  text-decoration: underline;
-  line-height: 35px;
+    margin: 0px;
   }
-  
-  .flower-section{
-    margin: 0px auto;
-    margin-bottom: 128px;
+
+  .flower-section {
+    margin: 0px;
   }
-  
-  .flower-section h2{
-    margin-bottom:24px; 
-    text-align:center;
-  }
-  .flower-section p{
-    width: 594px;
+
+  .flower-section h2 {
     text-align: center;
-    margin: 0 auto;
-     margin-bottom: 48px; 
+    margin: 0px;
+    margin-bottom: 25px;
   }
-  
-  .flower-box{
+
+  .flower-section p {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+  }
+
+  .flower-section p {
+    margin: 0px;
+    margin-bottom: 25px;
+  }
+
+  .flower-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin-bottom: 32px;
   }
-  
-  .flower-box h3{
-    margin-top: 32px;
-  }
-  
-  .flower-cart-container{
+
+  .flower-cart-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    flex-direction: column;
+    gap: 0px;
   }
-  
-  .flower-cart{
-    width: 464px;
-    height: 538px;
-    border-top-left-radius: 300px; 
-    border-top-right-radius: 300px;
+
+  .flower-cart {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    width: 100%;
+    height: auto;
   }
-  
-  .flower-img-cart-1{
-    width: 310px;height: 428px;
+
+  .flower-cart img {
+    object-fit: contain;
   }
-  
-  .flower-img-cart-2{
-    width: 370px;height: 370px;
+
+  .flower-img-cart-1 {
+    padding-top: 20px;
   }
-  
-  .flower-img-cart-3{
-    width: 314px;height: 471px;
+
+  .flower-img-cart-2 {
+    padding-left: 20px;
+    padding-top: 20px;
   }
-  
-  .flower-cart h3{
+
+  .flower-cart h3 {
     text-decoration: underline;
   }
-  
+
   /*Service section started here*/
-  
-  .service-section{
+
+  .service-section {
     margin: 0px auto;
     background-color: rgba(39, 39, 39, 0.05);
     border-radius: 8px;
@@ -433,32 +401,32 @@ footer .p2{
     width: 1440px;
     height: 320px;
   }
-  
-  .title-04{
-   color: rgba(39, 39, 39, 0.80);
-  font-size: 24px;
-  font-family: Lato;
-  font-weight: 600;
-  line-height: 35px;
-  margin-top: 24px;
+
+  .title-04 {
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 24px;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 24px;
   }
-  
-  .service-section div{
+
+  .service-section div {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
   }
-  
+
   /* Hot deal section started here*/
-  
-  .hot-deal-section{
+
+  .hot-deal-section {
     padding-left: 395px;
     padding-right: 429px;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: rgba(229, 84, 115, 0.05); 
+    background-color: rgba(229, 84, 115, 0.05);
     border-radius: 8px;
     display: flex;
     justify-content: center;
@@ -467,29 +435,30 @@ footer .p2{
     margin-bottom: 128px;
     gap: 186px;
   }
-  
+
   /*Instagram section started here*/
-  
-  .instagram-section{
+
+  .instagram-section {
     margin-bottom: 128px;
   }
-  
-  .instagram-section h2,.instagram-section p{
+
+  .instagram-section h2,
+  .instagram-section p {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 24px;
   }
-  
-  .insta-pics{
+
+  .insta-pics {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
   }
-  
+
   /*Latest deal section started here*/
-  
-  .latest-deal-section{
+
+  .latest-deal-section {
     margin: 0px auto;
     margin-bottom: 128px;
     margin-top: 128px;
@@ -498,51 +467,50 @@ footer .p2{
     width: 1440px;
     height: 449px;
   }
-  
-  .latest-deal-section h2,.latest-deal-section p{
+
+  .latest-deal-section h2,
+  .latest-deal-section p {
     text-align: center;
   }
-  
-  .input-btn-container{
+
+  .input-btn-container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
   }
-  
-  .input-btn-container input{
-    padding:23px 513px 22px 23px;
+
+  .input-btn-container input {
+    padding: 23px 513px 22px 23px;
     background: white;
     border-radius: 8px;
-   border: none;
+    border: none;
   }
-  
+
   /*Footer section started here*/
-  
-  footer{
+
+  footer {
     text-align: center;
     background-color: #111010;
   }
-  
-  footer h2{
+
+  footer h2 {
     margin-bottom: 24px;
-    color: white; 
+    color: white;
     padding-top: 128px;
   }
-  
-  footer .p1{
-    color: rgba(255, 255, 255, 0.90);
-    margin: 0px auto;
-     margin-bottom: 32px;
-     width: 625px;
-  }
-  
-  footer .p2{
-    font-size: 16px;
-     padding-bottom: 128px;
-     color: rgba(255, 255, 255, 0.40);
-     margin-bottom: 0px;
-  }
-  
 
+  footer .p1 {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0px auto;
+    margin-bottom: 32px;
+    width: 625px;
+  }
+
+  footer .p2 {
+    font-size: 16px;
+    padding-bottom: 128px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 0px;
+  }
 }
