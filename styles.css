@@ -217,13 +217,21 @@ main {
   margin-top: 128px;
   background-image: url(Asset/Rectangle\ 9.png);
   background-size: cover;
-  width: 1440px;
-  height: 449px;
+   width: 1440px; 
+   height: 449px;
 }
 
 .latest-deal-section h2,
 .latest-deal-section p {
   text-align: center;
+}
+
+.latest-deal-section h2{
+  margin-bottom: 16px; padding-top: 122px;
+}
+
+.latest-deal-section p{
+  margin-bottom: 48px;
 }
 
 .input-btn-container {
@@ -251,6 +259,9 @@ footer h2 {
   margin-bottom: 24px;
   color: white;
   padding-top: 128px;
+  margin-bottom: 24px;
+  padding-top: 128px;
+  color: white;
 }
 
 footer .p1 {
@@ -438,20 +449,29 @@ footer .p2 {
 
   .instagram-section {
     margin-bottom: 128px;
+    margin: 0px;
+    margin-top: 30px;
   }
 
   .instagram-section h2,
   .instagram-section p {
     text-align: center;
-    margin: 0 auto;
-    margin-bottom: 24px;
+    margin: 0 20px;
+    /* margin-top: 32px; */
+  }
+
+  .instagram-section h2{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .insta-pics {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    flex-direction: column;
+    gap:25px;
   }
 
   /*Latest deal section started here*/
@@ -462,27 +482,50 @@ footer .p2 {
     margin-top: 128px;
     background-image: url(Asset/Rectangle\ 9.png);
     background-size: cover;
-    width: 1440px;
-    height: 449px;
+    margin: 20px;
+    padding: 0px;
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+    
   }
 
   .latest-deal-section h2,
   .latest-deal-section p {
     text-align: center;
+    margin: 0px;
+    padding: 10px;
+  }
+
+  .latest-deal-section h2{
+    font-size: 30px;
+    padding-top: 50px;
+  }
+
+  .latest-deal-section p{
+    padding-top: 0px;
   }
 
   .input-btn-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    flex-direction: column;
+    gap: 0px;
   }
 
   .input-btn-container input {
-    padding: 23px 513px 22px 23px;
+    padding: 20px 60px;
     background: white;
     border-radius: 8px;
     border: none;
+    margin: 0px;
+    font-size: 16px;
+    margin: 20px 0px;
+  }
+
+  .btn-primary{
+    margin-bottom: 20px;
   }
 
   /*Footer section started here*/
@@ -490,25 +533,33 @@ footer .p2 {
   footer {
     text-align: center;
     background-color: #111010;
+    width: 95%;
+    margin-top: 30px;
+    padding: 20px 10px;
   }
 
   footer h2 {
     margin-bottom: 24px;
     color: white;
     padding-top: 128px;
+    padding: 0px;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 10px;
   }
 
   footer .p1 {
     color: rgba(255, 255, 255, 0.9);
     margin: 0px auto;
-    margin-bottom: 32px;
-    width: 625px;
+    margin-bottom: 10px;
+    width: 100%;
   }
 
   footer .p2 {
     font-size: 16px;
-    padding-bottom: 128px;
+    padding-bottom: 20px;
     color: rgba(255, 255, 255, 0.4);
     margin-bottom: 0px;
+    width: 100%;
   }
 }
