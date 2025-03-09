@@ -392,6 +392,7 @@ footer .p2 {
 
   .flower-cart img {
     object-fit: contain;
+    width: 80%;
   }
 
   .flower-img-cart-1 {
