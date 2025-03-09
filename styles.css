@@ -428,6 +428,9 @@ footer .p2 {
 
   main {
     margin: 0px;
+
+    overflow: hidden;
+    margin-left: 3px;
   }
 
   .hot-deal-section {
@@ -487,7 +490,6 @@ footer .p2 {
     width: 90%;
     height: auto;
     border-radius: 8px;
-    
   }
 
   .latest-deal-section h2,
